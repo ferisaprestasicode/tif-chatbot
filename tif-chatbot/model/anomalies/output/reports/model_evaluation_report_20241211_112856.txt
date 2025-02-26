@@ -1,0 +1,44 @@
+# Traffic Anomaly Detection Model Evaluation Report
+Generated: 2024-12-11 11:28:56
+
+## Overall Statistics
+Total Links Analyzed: 5
+
+### Model Distribution
+- Statistical: 5 links (100.0%)
+
+## Location-Specific Analysis
+
+### traffic
+Number of links: 5
+Average F1 Score: 0.000
+Average Anomaly Rate: 0.0%
+Model Distribution:
+- Statistical: 5 links (100.0%)
+
+## Detailed Results by Link
+
+p-d1-bds_traffic_in_158198:
+  Best Model: Statistical
+  F1 Score: 0.000
+  Anomaly Rate: 0.0%
+
+p-d1-bds_traffic_in_158199:
+  Best Model: Statistical
+  F1 Score: 0.000
+  Anomaly Rate: 0.0%
+
+p-d1-bds_traffic_in_158203:
+  Best Model: Statistical
+  F1 Score: 0.000
+  Anomaly Rate: 0.0%
+
+p-d1-bds_traffic_in_158205:
+  Best Model: Statistical
+  F1 Score: 0.000
+  Anomaly Rate: 0.0%
+
+p-d1-bds_traffic_in_158206:
+  Best Model: Statistical
+  F1 Score: 0.000
+  Anomaly Rate: 0.0%

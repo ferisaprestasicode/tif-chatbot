@@ -1,0 +1,38 @@
+# Use a lightweight Python image
+FROM python:3.10
+
+# Set environment variables
+ENV HOST=0.0.0.0
+ENV PORT=8080
+ENV TZ="Asia/Jakarta"
+
+# Set timezone
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+
+# Install system dependencies
+RUN apt-get update && \
+    apt-get install -y build-essential libpq-dev && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
+
+# Upgrade pip
+RUN pip install --no-cache-dir --upgrade pip
+
+# Set working directory
+WORKDIR /app
+
+# Copy requirements and install dependencies
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy the entire application
+COPY . .
+
+# Expose the app's port
+EXPOSE $PORT
+
+# Healthcheck for the container (update URL based on your app's health route)
+HEALTHCHECK --interval=30s --timeout=5s --retries=3 CMD curl --fail http://localhost:$PORT/health || exit 1
+
+# Command to run the Flask app
+CMD ["python", "app.py"]

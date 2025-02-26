@@ -1,0 +1,136 @@
+# Traffic Anomaly Detection Model Evaluation Report
+Generated: 2024-12-10 21:59:30
+
+## Overall Statistics
+Total Links Analyzed: 23
+
+### Model Distribution
+- Seasonal_Decompose_traffic_in: 7 links (30.4%)
+- Exponential_Smoothing_traffic_in: 16 links (69.6%)
+
+## Location-Specific Analysis
+
+### traffic
+Number of links: 23
+Average F1 Score: 0.030
+Average Anomaly Rate: 0.0%
+Model Distribution:
+- Seasonal_Decompose_traffic_in: 7 links (30.4%)
+- Exponential_Smoothing_traffic_in: 16 links (69.6%)
+
+## Detailed Results by Link
+
+p-d1-bds_traffic_in_146008:
+  Best Model: Seasonal_Decompose_traffic_in
+  F1 Score: 0.000
+  Anomaly Rate: 0.0%
+
+p-d1-bds_traffic_in_146009:
+  Best Model: Exponential_Smoothing_traffic_in
+  F1 Score: 0.000
+  Anomaly Rate: 0.0%
+
+p-d1-bds_traffic_in_146010:
+  Best Model: Exponential_Smoothing_traffic_in
+  F1 Score: 0.000
+  Anomaly Rate: 0.0%
+
+p-d1-bds_traffic_in_146012:
+  Best Model: Exponential_Smoothing_traffic_in
+  F1 Score: 0.444
+  Anomaly Rate: 26.9%
+
+p-d1-bds_traffic_in_146013:
+  Best Model: Seasonal_Decompose_traffic_in
+  F1 Score: 0.000
+  Anomaly Rate: 11.5%
+
+p-d1-bds_traffic_in_146014:
+  Best Model: Exponential_Smoothing_traffic_in
+  F1 Score: 0.250
+  Anomaly Rate: 26.9%
+
+p-d1-bds_traffic_in_146015:
+  Best Model: Exponential_Smoothing_traffic_in
+  F1 Score: 0.000
+  Anomaly Rate: 0.0%
+
+p-d1-bds_traffic_in_146016:
+  Best Model: Seasonal_Decompose_traffic_in
+  F1 Score: 0.000
+  Anomaly Rate: 15.4%
+
+p-d1-bds_traffic_in_146024:
+  Best Model: Exponential_Smoothing_traffic_in
+  F1 Score: 0.000
+  Anomaly Rate: 0.0%
+
+p-d1-bds_traffic_in_146025:
+  Best Model: Exponential_Smoothing_traffic_in
+  F1 Score: 0.000
+  Anomaly Rate: 0.0%
+
+p-d1-bds_traffic_in_146027:
+  Best Model: Exponential_Smoothing_traffic_in
+  F1 Score: 0.000
+  Anomaly Rate: 0.0%
+
+p-d1-bds_traffic_in_146028:
+  Best Model: Exponential_Smoothing_traffic_in
+  F1 Score: 0.000
+  Anomaly Rate: 0.0%
+
+p-d1-bds_traffic_in_146033:
+  Best Model: Seasonal_Decompose_traffic_in
+  F1 Score: 0.000
+  Anomaly Rate: 0.0%
+
+p-d1-bds_traffic_in_146034:
+  Best Model: Seasonal_Decompose_traffic_in
+  F1 Score: 0.000
+  Anomaly Rate: 0.0%
+
+p-d1-bds_traffic_in_146036:
+  Best Model: Seasonal_Decompose_traffic_in
+  F1 Score: 0.000
+  Anomaly Rate: 0.0%
+
+p-d1-bds_traffic_in_146037:
+  Best Model: Seasonal_Decompose_traffic_in
+  F1 Score: 0.000
+  Anomaly Rate: 0.0%
+
+p-d1-bds_traffic_in_147448:
+  Best Model: Exponential_Smoothing_traffic_in
+  F1 Score: 0.000
+  Anomaly Rate: 0.0%
+
+p-d1-bds_traffic_in_147449:
+  Best Model: Exponential_Smoothing_traffic_in
+  F1 Score: 0.000
+  Anomaly Rate: 0.0%
+
+p-d1-bds_traffic_in_147450:
+  Best Model: Exponential_Smoothing_traffic_in
+  F1 Score: 0.000
+  Anomaly Rate: 0.0%
+
+p-d1-bds_traffic_in_147451:
+  Best Model: Exponential_Smoothing_traffic_in
+  F1 Score: 0.000
+  Anomaly Rate: 0.0%
+
+p-d1-bds_traffic_in_147452:
+  Best Model: Exponential_Smoothing_traffic_in
+  F1 Score: 0.000
+  Anomaly Rate: 0.0%
+
+p-d1-bds_traffic_in_150010:
+  Best Model: Exponential_Smoothing_traffic_in
+  F1 Score: 0.000
+  Anomaly Rate: 0.0%
+
+p-d1-bds_traffic_in_150011:
+  Best Model: Exponential_Smoothing_traffic_in
+  F1 Score: 0.000
+  Anomaly Rate: 0.0%

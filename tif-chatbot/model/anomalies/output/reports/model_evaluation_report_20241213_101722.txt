@@ -1,0 +1,11 @@
+# Traffic Anomaly Detection Model Evaluation Report
+Generated: 2024-12-13 10:17:22
+
+## Overall Statistics
+Total Links Analyzed: 0
+
+### Model Distribution
+
+## Location-Specific Analysis
+
+## Detailed Results by Link

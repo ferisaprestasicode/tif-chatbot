@@ -1,0 +1,11 @@
+__pycache__/
+*.log
+.env
+internal-438214-a56b64c954cd.json
+data\json_storage
+data\raw
+model\forecasting\output
+model\anomalies\output
+*.pkl
+cache
+.venv
